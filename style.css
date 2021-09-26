@@ -1,0 +1,12 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.filter button{
+    margin-left: 5px;
+}
+.correntFilter{
+    background-color: rgb(114, 217, 224);
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import TaskConteiner from './Conteiner/TaskConteiner'
+import Style from '../style.css'
+
 
 
 

@@ -15,8 +15,7 @@ export default class AddTask extends Component {
         this.setState({ newtask: e.target.value })
     }
     addInputEnter = (e) => {
-        if (e.key == 'Enter') {
-            console.log('add')
+        if (this.state.newtask && e.key == 'Enter') {
             this.addBtnClick()
         }
     }
